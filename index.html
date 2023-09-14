@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Exam Timmer</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="heading">Welcome</div>
+        <div id="inputs">
+            <fieldset>
+                <legend>Total Questions</legend>
+                <input type="text" class="value" id="TotalQuestions" placeholder="Enter No. Of Question..." required>
+            </fieldset>
+            <fieldset>
+                <legend>Total Time</legend>
+                <input type="text" class="value" id="TotalTime" onclick="checkQuestions()"
+                    placeholder="Enetr Total Time In Minutes..." required>
+
+            </fieldset>
+            <fieldset>
+                <legend>Revision Time</legend>
+                <input type="text" class="value" id="RevisionTime" onclick="checkTotalTime()"
+                    placeholder="Enter time of Rivision in Minutes..." required>
+            </fieldset>
+
+        </div>
+    </div>
+
+    <div id="body">
+        <ul>
+            <li>No. of Question in your test is <span id="Questions">00</span> .</li>
+            <li>The Total Time to attempt the test is <span id="Time">00</span> .</li>
+            <li>Time for Rivision is <span id="Revision">00</span> .</li>
+            <li>Time taken the single question is <span id="SingleQuestion">0 min 0 sec</span> .</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <div>
+            <input type="checkbox" id="checkbox" onclick="Checked()" name="Read">
+            <label for="Read">Click Here To Confirm</label>
+
+        </div>
+        <button id="Start-Counter" onclick="StartCounter()">StartCounter</button>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

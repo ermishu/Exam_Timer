@@ -1,0 +1,81 @@
+fieldset{
+    display: inline-block;
+    border-color: black;
+}
+legend{
+    color: black;
+}
+body{
+    background-color: rgb(192, 250, 231);
+    font-family: sans-serif;
+}
+
+#header{
+    margin:50px;
+    padding:50px;
+    background-image: linear-gradient(35deg,rgb(142, 212, 255),pink);
+    text-align: center;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2rem;
+    color: white;
+    padding-bottom: 30px;
+}
+
+input{
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#body{
+    background-image: radial-gradient(rgb(99, 94, 94),white);
+    margin:60px;
+    padding:10px;
+    margin-top: 0;
+    display:none;
+}
+
+#footer{
+    background-image: linear-gradient(45deg,rgb(120, 120, 229),rgb(255, 64, 0));
+    margin:60px;
+    padding:30px;
+    margin-top: 0;
+    text-align: center;
+}
+label{
+    color: white;
+}
+
+button{
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px white;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition:ease-in-out 0.5s;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(191, 181, 181);
+}
+button#start{
+    border-radius: 10px;
+    width: 20%;
+    background-color: bisque; 
+}
+
+#Body{
+    background-image: radial-gradient(rgb(99, 94, 94),white);
+    margin:60px;
+    padding:10px;
+    margin-top: 0;
+}
+
